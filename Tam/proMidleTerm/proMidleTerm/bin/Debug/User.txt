@@ -1,0 +1,4 @@
+USER0001|Trống|admin|12345|Admin
+USER0002|Trần Thanh Hải|tranthanhhai|12345|User
+USER0003|Nguyễn Thị Linh Đan|linhdan|12345|User
+USER0004|le quoc tuan|tuan|12345|User
