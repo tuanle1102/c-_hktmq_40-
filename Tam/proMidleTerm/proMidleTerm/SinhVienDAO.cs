@@ -35,7 +35,7 @@ namespace proMidleTerm
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] s = line.Split('|');
-                    if (s.Length == 4)
+                    if (s.Length == 5)
                     {
                         SinhVien i = new SinhVien(s[0], s[1], s[2], s[3]);
                         l.Add(i);

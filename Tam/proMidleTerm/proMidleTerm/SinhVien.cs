@@ -14,7 +14,6 @@ namespace proMidleTerm
         private string lop;
         private string khoa;
 
-
         public SinhVien()
         {
         }
@@ -37,7 +36,7 @@ namespace proMidleTerm
 
         public string getDinhDangLuuFile()
         {
-            return masv + "|" + hotensv + "|" + lop + "|" + khoa + "|";
+            return masv + "|" + hotensv + "|" + lop + "|" + khoa;
         }
     }
 }

@@ -30,7 +30,7 @@ namespace proMidleTerm
                 row.Cells[2].Value = i.Hotensv;
                 row.Cells[3].Value = i.Lop;
                 row.Cells[4].Value = i.Khoa;
-                
+
                 dgvSinhVien.Rows.Add(row);
             }
         }
@@ -79,7 +79,6 @@ namespace proMidleTerm
                 tbTenSV.Text = Convert.ToString(row.Cells[2].Value);
                 tbLop.Text = Convert.ToString(row.Cells[3].Value);
                 tbKhoa.Text = Convert.ToString(row.Cells[4].Value);
-                
             
             }
             catch (Exception)
