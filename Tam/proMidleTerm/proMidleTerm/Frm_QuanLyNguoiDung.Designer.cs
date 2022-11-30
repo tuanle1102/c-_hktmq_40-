@@ -188,7 +188,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.panel5.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label12);
             this.panel5.Location = new System.Drawing.Point(-1, 2);
@@ -211,7 +211,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.panel6.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.lbLoi);
             this.panel6.ForeColor = System.Drawing.Color.Black;
@@ -224,7 +224,7 @@
             // lbLoi
             // 
             this.lbLoi.AutoSize = true;
-            this.lbLoi.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.lbLoi.BackColor = System.Drawing.Color.DodgerBlue;
             this.lbLoi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbLoi.ForeColor = System.Drawing.Color.Black;
             this.lbLoi.Location = new System.Drawing.Point(4, 4);

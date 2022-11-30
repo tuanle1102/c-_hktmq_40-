@@ -61,20 +61,4 @@ C:\Users\1102l\OneDrive\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\ob
 C:\Users\1102l\OneDrive\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.csproj.CoreCompileInputs.cache
 C:\Users\1102l\OneDrive\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.exe
 C:\Users\1102l\OneDrive\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.pdb
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\bin\Debug\proMidleTerm.exe.config
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\bin\Debug\proMidleTerm.exe
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\bin\Debug\proMidleTerm.pdb
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.csproj.AssemblyReference.cache
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.csproj.SuggestedBindingRedirects.cache
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_DangNhap.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_Main.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_QuanLyNguoiDung.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_Home.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_QuanLySinhVien.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_TrangChu.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Properties.Resources.resources
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.csproj.GenerateResource.cache
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.exe
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.pdb
-C:\Users\ASUS\OneDrive\Hình ảnh\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_QuanLyLop.resources
+C:\Users\1102l\OneDrive\Máy tính\c-_hktmq_40-\Tam\proMidleTerm\proMidleTerm\obj\Debug\proMidleTerm.Frm_QuanLyLop.resources

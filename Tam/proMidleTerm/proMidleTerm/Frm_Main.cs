@@ -44,18 +44,19 @@ namespace proMidleTerm
         }
         private void label3_Click(object sender, EventArgs e)
         {
-            if (label3.BackColor == Color.Green) {
+            if (label3.BackColor == Color.DodgerBlue) {
                 Frm_Home();
-                pnHeThong.BackColor = Color.DeepPink;
-                button2.BackColor = Color.White;
-                button1.BackColor = Color.White;
+                pnHeThong.BackColor = Color.DeepSkyBlue;
+                button2.BackColor = Color.DodgerBlue;
+                button1.BackColor = Color.DodgerBlue;
+               
             }
             
         }
 
         private void pnHeThong_Paint(object sender, PaintEventArgs e)
         {
-            Frm_Home();
+            
         }
       
         
@@ -124,40 +125,42 @@ namespace proMidleTerm
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (button1.BackColor == Color.White)
+            if (button1.BackColor == Color.DodgerBlue)
             {
                 quanlyLop();
-                button1.BackColor = Color.Blue;
-                button2.BackColor = Color.White;
-                button3.BackColor = Color.White;
-                
+                button1.BackColor = Color.DeepSkyBlue;
+                button2.BackColor = Color.DodgerBlue;
+                button3.BackColor = Color.DodgerBlue;
+                pnHeThong.BackColor = Color.DodgerBlue;
+
             }
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (button2.BackColor == Color.White)
+            if (button2.BackColor == Color.DodgerBlue)
             {
                 quanLyNguoiDung();
-                button1.BackColor = Color.White;
-                button2.BackColor = Color.Blue;
-                button3.BackColor = Color.White;
-                
+                button1.BackColor = Color.DodgerBlue;
+                button2.BackColor = Color.DeepSkyBlue;
+                button3.BackColor = Color.DodgerBlue;
+                pnHeThong.BackColor = Color.DodgerBlue;
+
             }
-            else
-                button2.BackColor = Color.White;
+      
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if(button3.BackColor == Color.White)
+            if(button3.BackColor == Color.DodgerBlue)
             {
                 Frm_QLSV();
-                button3.BackColor= Color.Blue;
-                button2.BackColor= Color.White;
-                button1.BackColor= Color.White;
-               
+                button3.BackColor= Color.DeepSkyBlue;
+                button2.BackColor= Color.DodgerBlue;
+                button1.BackColor= Color.DodgerBlue;
+                pnHeThong.BackColor = Color.DodgerBlue;
+
             }
             
         }
@@ -165,6 +168,21 @@ namespace proMidleTerm
         private void pnHeThong_MouseClick(object sender, MouseEventArgs e)
         {
             Frm_Home();
+        }
+
+        private void label7_MouseHover(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.DeepPink;
+        }
+
+        private void panel6_MouseLeave(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.DeepSkyBlue;
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }

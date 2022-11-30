@@ -10,21 +10,22 @@ using System.Windows.Forms;
 
 namespace proMidleTerm
 {
-    public partial class Frm_QuanLyLop : Form
+    public partial class Frm_XuLyNgonNgu : Form
     {
-        public Frm_QuanLyLop()
+        public Frm_XuLyNgonNgu()
         {
             InitializeComponent();
         }
+        
 
-        private void Frm_QuanLyLop_Load(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void Frm_XuLyNgonNgu_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            
         }
     }
 }

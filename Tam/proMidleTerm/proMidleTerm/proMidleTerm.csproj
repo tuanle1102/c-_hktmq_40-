@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,12 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm_Class.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_Class.Designer.cs">
-      <DependentUpon>Frm_Class.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +68,12 @@
     </Compile>
     <Compile Include="Frm_Main.Designer.cs">
       <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_QuanLyLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_QuanLyLop.Designer.cs">
+      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_QuanLyNguoiDung.cs">
       <SubType>Form</SubType>
@@ -94,11 +99,11 @@
     <Compile Include="Frm_TrangChu.Designer.cs">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_QuanLyLop.cs">
+    <Compile Include="Frm_XuLyNgonNgu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_QuanLyLop.Designer.cs">
-      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
+    <Compile Include="Frm_XuLyNgonNgu.Designer.cs">
+      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
     </Compile>
     <Compile Include="Lop.cs" />
     <Compile Include="LopDao.cs" />
@@ -114,6 +119,9 @@
     <EmbeddedResource Include="Frm_Main.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QuanLyLop.resx">
+      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_QuanLyNguoiDung.resx">
       <DependentUpon>Frm_QuanLyNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,8 +134,8 @@
     <EmbeddedResource Include="Frm_TrangChu.resx">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_QuanLyLop.resx">
-      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_XuLyNgonNgu.resx">
+      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
