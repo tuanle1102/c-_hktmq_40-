@@ -94,12 +94,14 @@
     <Compile Include="Frm_TrangChu.Designer.cs">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_XuLyNgonNgu.cs">
+    <Compile Include="Frm_QuanLyLop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_XuLyNgonNgu.Designer.cs">
-      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
+    <Compile Include="Frm_QuanLyLop.Designer.cs">
+      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lop.cs" />
+    <Compile Include="LopDao.cs" />
     <Compile Include="NguoiDung.cs" />
     <Compile Include="NguoiDungDAO.cs" />
     <Compile Include="Program.cs" />
@@ -124,8 +126,8 @@
     <EmbeddedResource Include="Frm_TrangChu.resx">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_XuLyNgonNgu.resx">
-      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_QuanLyLop.resx">
+      <DependentUpon>Frm_QuanLyLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

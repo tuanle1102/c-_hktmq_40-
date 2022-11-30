@@ -7,29 +7,29 @@ using System.Threading.Tasks;
 
 namespace proMidleTerm
 {
-    public class SinhVienDAO
+    public class LopDao
     {
-        private static SinhVienDAO instance;
-        private static List<SinhVien> l;
-        public static SinhVienDAO Instance
+        private static LopDao instance;
+        private static List<Lop> l;
+        public static LopDao Instance
         {
-            get { if (instance == null) instance = new SinhVienDAO(); return instance; }
+            get { if (instance == null) instance = new LopDao(); return instance; }
             private set { instance = value; }
         }
 
-        public List<SinhVien> LoadDS()
+        public List<Lop> LoadDS()
         {
             return l;
         }
-        public SinhVienDAO()
+        public LopDao()
         {
-            l = new List<SinhVien>();
+            l = new List<Lop>();
             docFile();
         }
 
         private void docFile()
         {
-            using (StreamReader sr = new StreamReader("ListSV.txt"))
+            using (StreamReader sr = new StreamReader("ListLop.txt"))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
@@ -37,7 +37,7 @@ namespace proMidleTerm
                     string[] s = line.Split('|');
                     if (s.Length == 5)
                     {
-                        SinhVien i = new SinhVien(s[0], s[1], s[2], s[3]);
+                        Lop i = new Lop(s[0], s[1], s[2], s[3]);
                         l.Add(i);
                     }
                 }
@@ -46,25 +46,26 @@ namespace proMidleTerm
 
         private void luuFile()
         {
-            using (StreamWriter sw = new StreamWriter("ListSV.txt"))
+            using (StreamWriter sw = new StreamWriter("ListLop.txt"))
             {
-                for (int i = 0; i <l.Count; i++)
+                for (int i = 0; i < l.Count; i++)
                 {
                     sw.WriteLine(l[i].getDinhDangLuuFile());
                 }
             }
         }
-        public SinhVien getByTaiKhoan(string tk)
+
+        public Lop getByTaiKhoan(string tk)
         {
-            foreach (SinhVien i in l)
-                if (i.Masv == tk)
+            foreach (Lop i in l)
+                if (i.Malop == tk)
                     return i;
             return null;
         }
-            public SinhVien getByMa(string masv)
+        public Lop getByMa(string masv)
         {
-            foreach (SinhVien i in l)
-                if (i.Masv == masv)
+            foreach (Lop i in l)
+                if (i.Malop == masv)
                     return i;
             return null;
         }
@@ -72,42 +73,45 @@ namespace proMidleTerm
 
         private string getMa()
         {
-            if (l.Count == 0) return "SV001";
-            string ma = l[l.Count - 1].Masv;
+            if (l.Count == 0) return "CT111";
+            string ma = l[l.Count - 1].Malop;
             string tam = "";
             for (int i = 3; i < ma.Length; i++)
                 tam += ma[i];
             int so = int.Parse(tam);
             so++;
             string s = so + "";
-            ma = "SV";
+            ma = "CT";
             for (int i = 0; i < 3 - s.Length; i++)
                 ma += "0";
             ma += s;
             return ma;
         }
-        public void them(string hotensv, string lop, string khoa)
-        {   
-            l.Add(new SinhVien(getMa(),hotensv,lop,khoa));
+
+        public void them(string tenlop, string lop, string khoa)
+        {
+            l.Add(new Lop(getMa(), tenlop, lop, khoa));
             luuFile();
         }
-        public void xoa(string masv)
+
+        public void xoa(string malop)
         {
             int i;
             for (i = 0; i < l.Count; i++)
-                if (l[i].Masv == masv)
+                if (l[i].Malop == malop)
                     break;
             if (i < l.Count)
                 l.RemoveAt(i);
             luuFile();
         }
-        public void capNhat(string masv, string hotensv, string lop, string khoa)
+
+        public void capNhat(string malop, string tenlop, string siso, string khoa)
         {
-            SinhVien u = getByMa(masv);
-            SinhVien u1 = new SinhVien(masv,hotensv,lop,khoa);
+            Lop u = getByMa(malop);
+            Lop u1 = new Lop(malop, tenlop, siso, khoa);
             int i;
             for (i = 0; i < l.Count; i++)
-                if (l[i].Masv == masv)
+                if (l[i].Malop == malop)
                     l[i] = u1;
             luuFile();
         }

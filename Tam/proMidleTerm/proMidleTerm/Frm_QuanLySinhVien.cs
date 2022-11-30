@@ -143,10 +143,5 @@ namespace proMidleTerm
                 lbLoi.Text = "Xóa sinh viên thành công";
             }
         }
-
-        private void tbMaSV_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

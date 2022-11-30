@@ -110,7 +110,7 @@ namespace proMidleTerm
             }
         }
         private void quanlyLop() {
-            OpenChildForm(new Frm_Class());
+            OpenChildForm(new Frm_QuanLyLop());
         }
 
      
