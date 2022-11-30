@@ -29,13 +29,13 @@ namespace proMidleTerm
 
         private void docFile()
         {
-            using (StreamReader sr = new StreamReader("ListLop.txt"))
+            using (StreamReader sr = new StreamReader("ListSV - Sao chép.txt"))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] s = line.Split('|');
-                    if (s.Length == 5)
+                    if (s.Length == 4)
                     {
                         Lop i = new Lop(s[0], s[1], s[2], s[3]);
                         l.Add(i);
@@ -46,7 +46,7 @@ namespace proMidleTerm
 
         private void luuFile()
         {
-            using (StreamWriter sw = new StreamWriter("ListLop.txt"))
+            using (StreamWriter sw = new StreamWriter("ListSV - Sao chép.txt"))
             {
                 for (int i = 0; i < l.Count; i++)
                 {

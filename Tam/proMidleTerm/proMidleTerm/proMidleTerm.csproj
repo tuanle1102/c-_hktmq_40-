@@ -99,12 +99,6 @@
     <Compile Include="Frm_TrangChu.Designer.cs">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_XuLyNgonNgu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_XuLyNgonNgu.Designer.cs">
-      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lop.cs" />
     <Compile Include="LopDao.cs" />
     <Compile Include="NguoiDung.cs" />
@@ -133,9 +127,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_TrangChu.resx">
       <DependentUpon>Frm_TrangChu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_XuLyNgonNgu.resx">
-      <DependentUpon>Frm_XuLyNgonNgu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
